@@ -1,0 +1,327 @@
+body,html{
+	height: 100%;
+	margin: 0px;
+	font-size: 16px;
+	font-family: "Lato" sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+}
+body{margin:opx;}
+#box1{
+	margin: opx auto; width: 1000px; height: 400px; padding: 20px;
+}
+@media screen and(max-width: 768px){
+	#box1{margin:  opx auto; width: 98%; height: 400px; position: 1%}
+
+}
+
+.container{
+
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+
+}
+
+header
+
+{
+
+
+	background: #525659;
+	color: #ffffff;
+	padding-top: 10px;
+	min-height: 100px;
+	border-bottom: #f5f1f0 3px solid;
+}
+
+
+
+
+
+header a {
+
+
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+
+
+}
+
+
+
+  header li{
+
+	float:left;
+	display: inline;
+	padding: 0 15px 0 15px;
+
+}
+
+header #branding{
+	float: left;
+}
+header #branding h5{
+	margin: 0;
+
+}
+
+header nav{
+	float: right;
+	margin-top: 5px;
+
+
+
+
+}
+header .highlight, .current a{
+	color: #e8491d;
+	font-weight: bold;
+}
+header  a:hover {
+	color: #cccccc;
+	font-weight: bold;
+}
+
+
+.fa{
+  padding: 10px;
+  font-size: 15px;
+  width: 15px;
+  text-align: right;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  top:25%;
+}
+
+form{
+	text-align: center;
+
+	transition: all 4s ease-in-out;
+}
+
+
+.form-control{
+	margin-top:40px;
+	width: 600px;
+	background: transparent;
+	border: black;
+	outline: none;
+	border-bottom: 1px solid black;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+input{
+	height: 40px;
+
+}
+
+
+.submit{
+	background-color: #ff5722;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+ .submit:hover{
+ 	background-color: #f44336;
+ 	cursor: pointer;
+ }
+
+
+
+.pimg1, .pimg2, .pimg3{
+	position: relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+
+/*
+
+fixed = parallex
+scroll = normal
+
+*/
+
+	background-attachment: fixed;
+}
+
+.img-responsive
+{
+	width: 100%;
+	max-width: 300px;
+	height: auto;
+}
+
+
+.pimg1{
+	background-image: url(image1/img1.jpeg);
+	min-height: 89%;
+	width: 100%;
+}
+.pimg2{
+	background-image: url(image1/img2.jpeg);
+	min-height: 600px;
+	width: 100%;
+}
+.pimg3{
+	background-image: url(image1/img3.jpeg);
+	min-height: 600px;
+	width: 100%;
+}
+.section{
+	text-align: center;
+	padding: 50px 80px;
+
+
+}
+.section-light{
+	background-color:#f4f4f4;
+
+	color:#666;
+
+
+
+
+}
+.section-dark{
+	background-color:#867967;
+	color: #ddd;
+
+
+}
+.fa{
+  padding: 10px;
+  font-size: 30px;
+  width: 25px;
+  text-align: right;
+  text-decoration: none;
+  margin: 6px 3px;
+  border-radius: 50%;
+  top:22%;
+}
+
+.fa :hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.social{
+	position: absolute;
+	text-align: center;
+	margin-top: : 18%;
+	left: 42%;
+	transform: translate(-50% -50%);
+	letter-spacing: 45px;
+}
+.social :hover{
+	opacity: 0.7;
+}
+	.section-white{
+	background-color: rgba(rgba(255, 255, 255, 0.5));
+margin-top:-70px;
+	color:#6c2b2b;
+
+
+}
+
+.PORTFOLIO{
+	margin: 0px 10px;
+	height: 60%;
+	
+
+}
+.PORTFOLIO img{
+	
+	height: 215px;
+	width: 300px;
+	padding: 25px;
+	filter: grayscale(0%);
+	transition: 1s;
+	padding-top: 1px;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: center;
+
+}
+.PORTFOLIO img:hover{
+	filter: grayscale(100%);
+	transform: scale(1.2);
+}
+
+.pimg1{
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 5px;
+	color: black;
+	text-transform: uppercase;
+
+}
+.pimg1 .border{
+	background-color: #111;
+	color: #fff;
+	padding: 20px;
+
+}
+
+.ptext{
+	position: absolute;
+	margin-top:350px;
+	width: 100%;
+	text-align: center;
+	color: #d9e0e6;
+	font-size: 27px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+
+.ptext .border.trans{
+	background-color: transparent;
+}
+
+
+footer{
+	padding: 3px;
+	margin-top: 5px;
+	color: #ffffff;
+	text-align: center;
+	background-color: #605c5b;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+
+}
